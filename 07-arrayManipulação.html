@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var frutas = ['maçã', 'pêra', 'uva'];
+        document.write(frutas);
+        document.write('<br/>');
+        //push acrescenta ao final do array
+        frutas.push('manga');
+        document.write(frutas);
+        document.write('<br/>');
+        //pop retira no final do array
+        frutas.pop()
+        document.write(frutas);
+        document.write('<br/>');
+        //unshift acrescenta ao inicio do array em elemento
+        frutas.unshift('manga');
+        document.write(frutas);
+        document.write('<br/>');
+        //remove o primeiro elemento
+        frutas.shift();
+        document.write(frutas);
+        document.write('<br/>');
+        //remove elementos apartir do índice
+        frutas.splice(1, 1) //o 1 é o indice do array selecionado, e o ,1 é a quantiadde de elementos que serão removidos apartir dele
+        document.write(frutas);
+        document.write('<br/>');
+
+    </script>
+</body>
+
+</html>
