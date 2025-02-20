@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora de imc</title>
+</head>
+
+<body>
+    <script>
+        var peso = prompt("Digite o seu peso");
+        var altura = prompt("Digite a sua altura em metros");
+
+        var resultado = peso / (altura * altura)
+        if (resultado < 18.5) {
+            window.prompt("Magreza");
+        }
+        else if (resultado = 18.5 || resultado <= 24.9) {
+            window.prompt("Normal");
+        }
+        else if(resultado = 25 || resultado <= 29.9){
+            window.prompt("Sobrepeso");
+        }
+    </script>
+</body>
+
+</html>

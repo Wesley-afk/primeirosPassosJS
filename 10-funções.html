@@ -29,9 +29,23 @@
             return a + b;
         }
 
-        var resultado = soma(15,5);
+        var resultado = soma(15, 5);
 
         console.log(resultado);
+
+        var pessoa = {
+            nome: 'ramon',
+            idade: 18
+        }
+
+        var mudaNome = (objetoPessoa) => {
+            objetoPessoa.nome = 'lucas',
+                objetoPessoa.municipio = 'serra'
+        }
+        
+        mudaNome(pessoa);
+
+        console.log(pessoa);
     </script>
 
 </body>
