@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objetos javascript</title>
+</head>
+<body>
+    <script>
+        // declaração de objetos em javascript
+        var pessoa = {};
+        pessoa.nome = "ramom";
+        console.log(pessoa);
+        console.log(JSON.stringify(pessoa));
+
+        var obj = {};
+
+        obj["model"] = `modelo`;
+        obj[`name`] = `name`;
+        obj.start = function (){
+            console.log('Estou pronto!!!');
+        }
+
+        console.log(obj);
+        console.log(JSON.stringify(obj));
+        obj.start();
+        
+    </script>
+</body>
+</html>
